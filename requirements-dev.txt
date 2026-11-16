@@ -1,0 +1,5 @@
+# Development / test dependencies
+-r requirements.txt
+-r requirements-optional.txt
+pytest==9.2.0
+pytest-qt==4.5.0

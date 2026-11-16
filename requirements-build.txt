@@ -1,0 +1,5 @@
+# Dependencies for building the Windows executable and regenerating icon assets
+-r requirements.txt
+-r requirements-optional.txt
+pyinstaller==6.22.3
+pillow==13.0.0

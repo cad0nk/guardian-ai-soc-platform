@@ -1,0 +1,52 @@
+# Environment variables / secrets (NEVER commit real keys)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-build/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Local database (created at runtime next to the app / exe)
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+
+# PyInstaller (keep guardian_ai.spec - it is the build configuration)
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tool caches
+.mypy_cache/
+.ruff_cache/

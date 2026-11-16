@@ -1,0 +1,7 @@
+# guardian_ai - runtime dependencies (versions verified in a clean virtual environment, Python 3.12)
+# Optional extras (PCAP parsing, faster Attack Graph layout) live in requirements-optional.txt
+PyQt5==5.15.11
+requests==2.34.2
+python-dotenv==1.2.4
+python-whois==0.9.6
+reportlab==5.1.0

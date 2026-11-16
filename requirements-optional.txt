@@ -1,0 +1,5 @@
+# Optional features. guardian_ai starts and runs CTI / Malware / WAF / NGFW analysis without them.
+#   pyshark : PCAP/PCAPNG parsing. Also needs the TShark *system* program (part of Wireshark).
+#   numpy   : vectorised Attack Graph layout for large graphs (falls back to a slower built-in layout)
+pyshark==0.6
+numpy==2.5.4
