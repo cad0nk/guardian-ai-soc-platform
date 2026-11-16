@@ -289,9 +289,3 @@ Contributions by other team members: `<names and areas>`.
 guardian_ai is a **security research, learning and portfolio demonstration project**. Use it only to analyse systems, files and logs
 that you are **authorised** to examine. The files in `tests/fixtures/` are **inert test fixtures** - they must never be executed.
 See [SECURITY.md](SECURITY.md) for safe-handling guidance.
-
-## License
-
-**No license has been selected yet.** Until the project owner(s) add a `LICENSE` file, no permission to use, copy, modify or
-redistribute the code is granted by default.
-<!-- TODO(owner): choose a license only after confirming publication rights (see docs/RELEASE.md). -->
